@@ -1,0 +1,55 @@
+.List{
+  padding: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color: aqua;
+  padding-left: 4rem;
+ 
+}
+.productdetails,.productList{
+  position: relative;
+  top:4rem;
+  
+}
+.payment{
+  width: 100%;
+  position: relative;
+  top:4rem;
+
+}
+.close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 100;
+  width: 2em;
+padding: 0.8em;
+cursor: pointer;
+}
+
+.search{
+
+  top: 4rem;
+  left:38%;
+  padding: 10px;
+  height: 12rem;
+  width: 30rem;
+  white-space: nowrap;
+  overflow: auto;
+  background-color:white;
+}
+.hide{
+  
+  visibility: hidden;
+}
+.navbar {
+  z-index: 1;
+  height: 4rem;
+}
+.searchcard{
+  min-height: 5rem;  
+}
+.item{
+ height: auto;
+  background-color: aquamarine;
+}
